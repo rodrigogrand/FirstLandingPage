@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Web Page</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light navbar-1">
+        <div class="container-fluid">
+          <img src="./images/rings1.svg" alt="rings1" class="rings1">
+          <a class="navbar-brand" href="#">Cars</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-md-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Link
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Link</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/712380.jpg" class="d-block w-100" alt="Buildings">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/2076684.jpg" class="d-block w-100" alt="Sky">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/707667.jpg" class="d-block w-100" alt="Buildings-2">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="card-group cardgroup">
+      <div class="row row-cols-1 row-cols-md-4 g-2 cards-row">
+          <div class="card card1">
+            <img src="./images/1402787.jpg" class="card-img-top" alt="car1">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+          <div class="card card2">
+            <img src="./images/1719647.jpg" class="card-img-top" alt="car2">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+          <div class="card card3">
+            <img src="./images/1754766.jpg" class="card-img-top" alt="car3">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div>
+    <img src="./images/134643.jpg" class="img-fluid" alt="buildins-3">
+    </div>
+    <div class="footer-container">
+      <div class="container">
+        <div class="row footer-text">
+          <div class="col-auto">
+            <img src="./images/rings.svg" alt="rings" class="logo">
+          </div>
+          <ul class="col-auto list1">
+            <li>Blog</li>
+            <li>About</li>
+            <li>Shop</li>
+            <li>Contact</li>
+            <li>Pricing</li>
+            <li>API</li>
+          </ul>
+          <ul class="col-auto list2">
+            <li>Training</li>
+            <li>Status</li>
+            <li>Security</li>
+            <li>Terms</li>
+            <li>Privacy</li>
+            <li>Docs</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="bootstrap.min.js"></script>
+</body>
+</html>
